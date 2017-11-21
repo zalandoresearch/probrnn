@@ -167,7 +167,6 @@ training.train(callback)
 Do imputation at test time
 
 ```python
-x = np.random.randn(100)
 x[np.random.choice(len(x), replace=False, size=50)] = np.nan
 estimate = imputer(model, x).estimate()
 ```
