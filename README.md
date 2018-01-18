@@ -87,7 +87,7 @@ At test time, predicting one unseen time-series given an observed time-series ma
 Installation:
 
 ``` bash 
-git clone git@github.bus.zalan.do:dblythe/probrnn.git
+git clone https://github.com/zalandoresearch/probrnn.git
 cd probnn/
 make install
 ```
@@ -95,7 +95,7 @@ make install
 Installation in development mode:
 
 ``` bash 
-git clone git@github.bus.zalan.do:dblythe/probrnn.git
+git clone https://github.com/zalandoresearch/probrnn.git
 cd probnn/
 make develop
 ```
