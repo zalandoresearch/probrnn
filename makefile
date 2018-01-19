@@ -5,6 +5,7 @@ develop:
 	pip install -r requirements.txt
 	python setup.py develop
 test:
+	mkdir models
 	python tests/data.py
 	python tests/graphs.py
 	python tests/inference.py
