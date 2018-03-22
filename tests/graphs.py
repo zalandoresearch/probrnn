@@ -41,6 +41,7 @@ class TestTimeSeriesPrediction(unittest.TestCase):
         graph.initialize()
         x = np.random.randn(params["WINDOW_LENGTH"], params["BATCH_SIZE"], params["N_BINS"])
         graph.test_error((x, None))
+        
 
 if __name__ == "__main__":
     unittest.main()

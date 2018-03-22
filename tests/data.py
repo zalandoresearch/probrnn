@@ -20,13 +20,6 @@ class TestToyData(unittest.TestCase):
         pass
 
 
-class TestShuffledToyData(unittest.TestCase):
-    def test_init(self):
-        self.assertTrue(
-            np.all(data.ShuffledMNIST("./data/mnist/").ix == data.ShuffledMNIST("./data/mnist").ix)
-        )
-
-
 class TestNadeWrapper(unittest.TestCase):
     def test_gen(self):
         x = np.random.rand(100, 10)

@@ -10,5 +10,5 @@ test:
 	python tests/graphs.py
 	python tests/inference.py
 	python tests/models.py
-clean:
-	rm models/test_model*
+	rm models/test*
+	rm models/checkpoint
