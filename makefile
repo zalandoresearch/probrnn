@@ -12,3 +12,4 @@ test:
 	python tests/models.py
 	rm models/test*
 	rm models/checkpoint
+
